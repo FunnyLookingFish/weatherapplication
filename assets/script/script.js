@@ -1,6 +1,6 @@
 console.log("This is loaded. You are doing great. Keep up the good work."); 
 
-const APIkey = ;
+// const APIkey = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}`;
 
 const cityInputEl = ;
 const searchButton = ;
