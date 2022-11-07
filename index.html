@@ -14,7 +14,7 @@
         <section class="search-container">
             <h2>City Search</h2>
             <form>
-                <label class="search-form" id="city-search" for="search">Enter City Name</label>
+                <label class="search-form" id="searchCity" for="search">Enter City Name</label>
                 <input name="city" id="city" type="text" class="form-input"/>
                 <button type="submit" class="btn">Search</button>
             </form>
@@ -22,11 +22,13 @@
         <section class="results-container">
             <div class="current">
                 <div class="card">
-                    <h2></h2>
-                    
+                    <h2><b>Current Temperature</b></h2>
+                    <div id="temp"></div>
                 </div>
             </div>
-            <div class="24hour"></div>
+            <div class="24hour">
+                <div></div>
+            </div>
             <div class="5day-forcast"></div>
             <div class="humidity"></div>
             <div class="wind"></div>

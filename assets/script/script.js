@@ -1,11 +1,13 @@
 console.log("This is loaded. You are doing great. Keep up the good work."); 
 
-// const APIkey = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}`;
+const apiKey = "db0bb7248127276eb81a6477403f139b";
+const apiUrl = "";
+const temp = document.getElementById("#temp");
+const searchCity = document.querySelector("#searchCity");
+const city = "";
 
-const cityInputEl = ;
-const searchButton = ;
-const clearButton = ;
-const previousSearchEl = ;
+// current weather
+function currentTemp() {};
 
 // getWeather function
 function getWeather(data){};
