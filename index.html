@@ -6,9 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/style/style.css" rel="stylesheet">
     <script defer src="assets/script/script.js"></script>
-    <title>Document</title>
+    <title>Weather Dashboard</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        <section class="search-container">
+            <h2>City Search</h2>
+            <form>
+                <input name="city" id="city" type="text" class="searchInput" placeholder="Enter Name of City"/>
+                <button type="submit" class="btn" id="searchButton">Search</button>
+            </form>
+        </section>
+        <section class="results-container">
+            <div class="current">
+                <div class="card">
+                    <h2><b>Current Temperature<small id="currentDate"></small></b></h2>
+                    <div id="temp"></div>
+                </div>
+            </div>
+            <div class="24hour">
+                <div class="list"></div>
+            </div>
+            <div class="5day-forcast"></div>
+            <div class="humidity"></div>
+            <div class="wind"></div>
+            <div class="uv-index"></div>
+        </section>
+    </div>
+
 </body>
 </html>
